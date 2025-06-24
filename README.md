@@ -88,9 +88,6 @@ This dataset is published for **educational and research purposes only**.
 **Uvais Saifi**  
 _Data Scientist | NLP Developer | Python Enthusiast_
 
-📧 Email: zaidsaifi523@gmail.com  
-📘 Medium: [@zaidsaifi523](https://medium.com/@zaidsaifi523)
-
 ---
 
 > If you use this dataset or project, consider giving credit or citing in your work.
