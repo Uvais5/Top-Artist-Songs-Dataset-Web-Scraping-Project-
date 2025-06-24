@@ -43,7 +43,7 @@ You can also explore and download the collected dataset directly from Kaggle:
 
 🔗 **Kaggle Dataset**: [Song Lyrics NLP Dataset (2017–2024)](https://www.kaggle.com/datasets/uvais5/song-lyrics-nlp-dataset)
 
-![Kaggle Preview](https://github.com/Uvais5/Song_Lyrics_Scraper_NLP/blob/main/kaggle_cover.png)
+![Kaggle Preview](kaggle_dataset.png)
 
 ---
 
