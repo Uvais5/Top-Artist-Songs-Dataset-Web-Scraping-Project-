@@ -41,7 +41,7 @@ This project scrapes and compiles a dataset of **song lyrics by top-charting art
 
 You can also explore and download the collected dataset directly from Kaggle:
 
-🔗 **Kaggle Dataset**: [Song Lyrics NLP Dataset (2017–2024)](https://www.kaggle.com/datasets/uvais5/song-lyrics-nlp-dataset)
+🔗 **Kaggle Dataset**: [Song Lyrics NLP Dataset (2017–2024)](https://www.kaggle.com/datasets/uvaissaifi/top-artist-songs-with-lyrics-20172024/data)
 
 ![Kaggle Preview](kaggle_dataset.png)
 
