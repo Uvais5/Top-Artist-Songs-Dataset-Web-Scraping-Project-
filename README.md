@@ -1,80 +1,97 @@
-# 📈 Stock Price Prediction Web App (with Prophet)
+# 🎵 Song Lyrics Scraper & NLP Dataset (2017–2024)
 
-![Stock Prediction](https://github.com/Uvais5/Stock_Price_Prediction_app/blob/main/stock.png)
+This project scrapes and compiles a dataset of **song lyrics by top-charting artists** between **2017 and 2024**. It includes **artist names**, **song titles**, and **cleaned lyrics**—perfect for **Natural Language Processing (NLP)** and **music-related machine learning** tasks.
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-orange?logo=streamlit)](https://streamlit.io/)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-lyrics--dataset-blue?logo=kaggle)](https://www.kaggle.com/)
+![Kaggle Badge](https://img.shields.io/badge/Dataset-Kaggle-blue?logo=kaggle)
+[![Kaggle Dataset](https://img.shields.io/badge/View%20on-Kaggle-20beff?logo=kaggle)](https://www.kaggle.com/datasets/uvais5/song-lyrics-nlp-dataset)
 
 ---
 
-## 🔍 Overview
+## 🧠 Use Cases
 
-This is an end-to-end data science project built with **Facebook Prophet** and **Streamlit** to help users predict stock prices using past historical data.
-
-It also integrates a **separate web scraping pipeline** that collects song lyrics from top artists (2017–2024) and prepares a powerful dataset for **Natural Language Processing** use cases — hosted on **Kaggle**.
-
----
-
-## 🎯 Use Case & Purpose
-
-- 📊 Learn **time series forecasting** using Prophet
-- 💹 Visualize and predict **stock trends**
-- 🤖 Scrape and preprocess **lyrics for NLP tasks**
-- 🎓 Ideal for **learning**, **demonstration**, or **hackathons**
+- 🎧 Sentiment analysis  
+- 🎶 Topic modeling  
+- 🔍 Text classification  
+- 🧠 Lyric generation / LLM fine-tuning  
+- ❤️ Emotion detection in music  
+- 📀 Song recommendation systems
 
 ---
 
-## 🚀 Live Demos
+## 🗂️ Dataset Overview
 
-- 📈 [Stock Price Predictor Web App](https://share.streamlit.io/uvais5/stock_price_prediction_app/main/app.py)
-- 📦 [Kaggle Lyrics Dataset (2017–2024)](https://www.kaggle.com/uvais5/song-lyrics-nlp-dataset)  
-  ![Lyrics Dataset Banner](https://github.com/Uvais5/Stock_Price_Prediction_app/blob/main/kaggle_lyrics_banner.png)
-
----
-
-## 🧠 Web Scraping: Song Lyrics Dataset
-
-### 🎵 Song Lyrics Scraper & NLP Dataset (2017–2024)
-
-This dataset includes artist names, song titles, and cleaned song lyrics collected from multiple public sources for NLP and machine learning projects.
-
-### 📚 Use Cases
-- Sentiment analysis  
-- Emotion detection in music  
-- Music genre classification  
-- Text classification  
-- Training LLMs on lyric data
-
-### 📁 Files Included
-| File                        | Description                            |
-|-----------------------------|----------------------------------------|
-| `azlyrics_artists_links.csv`     | Raw artist list and links             |
-| `filtered_artist_links.csv`      | Cleaned artist list with valid URLs   |
-| `song_links_&_name.csv`         | All song names and respective URLs    |
-| `final_lyrics_dataset.csv`      | Cleaned lyrics for ML training        |
-
-### 🔐 Disclaimer
-This dataset is provided for **educational and non-commercial use only**. Lyrics belong to their original copyright holders.
+| Column Name | Description               |
+|-------------|---------------------------|
+| `artist`    | Artist or band name       |
+| `songs`     | Title of the song         |
+| `lyrics`    | Full song lyrics (cleaned) |
 
 ---
 
-## 🛠 Tech Stack
+## 📦 Files Included
 
-| Tool       | Role                               |
-|------------|------------------------------------|
-| Python     | Base language                      |
-| Prophet    | Time series forecasting            |
-| Streamlit  | Web app UI                         |
-| BeautifulSoup | Web scraping engine             |
-| LyricsGenius | Genius API client                |
-| Pandas     | Data processing                    |
-| Plotly     | Interactive charts                 |
+- `azlyrics_artists_links.csv` — Raw artist list with song page links  
+- `filtered_artist_links.csv` — Top artist list with valid URLs  
+- `song_links_&_name.csv` — Song titles and respective song URLs  
+- `final_lyrics_dataset.csv` — Final dataset with lyrics cleaned and ready
 
 ---
 
-## 🔧 Installation
+## 📊 Kaggle Dataset
 
-```bash
-# Clone t
+You can also explore and download the dataset directly from Kaggle:
+
+🔗 **Kaggle Dataset**: [Song Lyrics NLP Dataset (2017–2024)](https://www.kaggle.com/datasets/uvais5/song-lyrics-nlp-dataset)
+
+![Kaggle Preview](https://github.com/Uvais5/Song_Lyrics_Scraper_NLP/blob/main/kaggle_cover.png)
+
+---
+
+## 🛠️ Tools & Libraries Used
+
+- `requests`, `BeautifulSoup` — Web scraping  
+- `pandas` — Data wrangling  
+- `lyricsgenius` — Backup lyrics via Genius API  
+- `re`, `time` — Utility modules  
+- `Streamlit` — Optional for UI or display
+
+---
+
+## 🔐 Disclaimer
+
+This dataset is published for **educational and research purposes only**.
+
+> All song lyrics remain the property of their respective copyright holders.  
+> No commercial use or redistribution of copyrighted content.
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository  
+2. Run the scraping script/notebook step by step  
+3. Optionally configure Genius API key  
+4. Save/export the dataset as `.csv` or push to Kaggle
+
+---
+
+## 📝 Notes
+
+- Songs were filtered to include only **2017–2024** to focus on modern lyrics  
+- **Older songs** were intentionally excluded  
+- Data was scraped from publicly accessible pages with care
+
+---
+
+## ✍️ Author
+
+**Uvais Saifi**  
+_Data Scientist | NLP Developer | Python Enthusiast_
+
+📧 Email: zaidsaifi523@gmail.com  
+📘 Medium: [@zaidsaifi523](https://medium.com/@zaidsaifi523)
+
+---
+
+> If you use this dataset or project, consider giving credit or citing in your work.
+
